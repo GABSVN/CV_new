@@ -32,6 +32,62 @@ body {
 
 
 
+button{
+      cursor: pointer;
+      border: 1px solid #555;
+      border-radius: 40%;
+      text-align: center;
+      padding: 5px;
+      margin-left: 8px;
+  }
+
+
+
+
+
+
+.mode {
+  float: right;
+}
+
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.dark {
+  background-color: #222;
+  color: #e6e6e6;
+  
+}
+
+
+.futur {
+  text-align: center;
+  font-style: italic;
+}
+
+.dark-mode{
+  filter: invert(100%);
+}
+
+.dark-mode #imgClickAndChange{
+  filter: invert(100%);
+}
+
+
+
+
+
+
+
+/* 
+
 .container-fluid {
 
 }
@@ -97,7 +153,7 @@ body {
 
 
 
-
+ */
 
 
 .container {
@@ -116,7 +172,7 @@ body {
 
 
 
-.projet {
+.formation {
 
   margin-bottom: 30px;
   
@@ -134,31 +190,19 @@ body {
 }
 
 
-
-.about {
-
-}
-
-
-.description {
-
+.date{
+  padding-right: ($spacer * .5)
 }
 
 
 .adresse {
-
-}
-
-.duree {
-
+  font-weight: bold;
 }
 
 
-
-.color {
-  color: blue;
+.name {
+  font-weight: bold;
 }
-
 
 .details {
   line-height: 20px;
@@ -171,7 +215,7 @@ body {
     margin-bottom: 0px;  
   }
   
-  .section__title {
+  .titre_section {
     letter-spacing: 2px;
     color: #54AFE4;
     font-weight: bold;
@@ -179,7 +223,7 @@ body {
     text-transform: uppercase;
   }
   
-  .section__list-item {
+  .poste {
     margin-bottom: 40px;
   }
   
@@ -201,48 +245,7 @@ body {
     tex-align: right;
     width: 39%;    
   }
-  
-  .name {
-    font-weight: bold;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #000;
-    font-style: italic;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-    color: #000;
-  }
-  
-  .skills {
-    
-  }
-    
-  .skills__item {
-    margin-bottom: 10px;  
-  }
-  
-  .skills__item .right {
-    input {
-      display: none;
-    }
-    
-    label {
-      display: inline-block;  
-      width: 20px;
-      height: 20px;
-      background: #C3DEF3;
-      border-radius: 20px;
-      margin-right: 3px;
-    }
-    
-    input:checked + label {
-      background: #79A9CE;
-    }
-  }
+
 }
 
 
